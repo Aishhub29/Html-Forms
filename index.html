@@ -10,29 +10,68 @@
     <form>
         <fieldset>
         <p>Name :
-        <input type="text" placeholder="Enter your name" style="text-align: center"></p>
-        <p>Age : <input type="number" placeholder="Your Age" style="text-align: center;"></p>
+        <input type="text" placeholder="Enter your name" style="text-align: center"><br/>
+        <br/>
+        Age : <input type="number" placeholder="Your Age" style="text-align: center;"><br />
+        <br/>
         <label for="DOB" >Date Of Birth :</label>
-        <input type="date" name="DOB" id="DOB">
-        <p>Email ID :<input type="email" placeholder="Enter your email" style="text-align: center;"></p>
-        <p>Gender :</p>
+        <input type="date" name="DOB" id="DOB"><br/>
+        <br/>
+        Email ID :<input type="email" placeholder="Enter your email" style="text-align: center;"><br/>
+        <br/>
+        Gender :
         <input type="radio" name="Gender" id="M">
         <label for="M" >Male</label>
         <input type="radio" name="Gender" id="F">
         <label for="F" >Female</label>
         <input type="radio" name="Gender" id="O">
-        <label for="O" >Other</label>
-        <p>Type Of Vehicle : </p>
+        <label for="O" >Other</label><br/>
+        <br/>
+        Type Of Vehicle : <br/>
+        <br/>
         <input type="checkbox" name="Four Wheeler" id="4" >
         <label for="4">Four-Wheeler</label>
+        <select name="Vehicle Type" id="Vehicle">
+        <optgroup label="Sedan">
+            <option value="1">Tigor</option>
+            <option value="2">Swift</option>
+            <option value="3">Verna</option>
+            <option value="4">City</option>
+        </optgroup>
+        <optgroup label="Hachback">
+            <option value="5">Balleno</option>
+            <option value="6">Tiago</option>
+            <option value="7">I 10</option>
+            <option value="8">Alto</option>
+            <option value="9">Altroz</option>
+        </optgroup>
+        <optgroup label="SUV">
+            <option value="10">Fronx</option>
+            <option value="11">Nexon</option>
+            <option value="12">Punch</option>
+            <option value="13">Creta</option>
+            <option value="14">Kiger</option>
+        </optgroup>
+        </select>
         <input type="checkbox" name="Two Wheeler" id="2" >
         <label for="2">Two-Wheeler</label>
-        <p>Vehicle Category :</p>
         <select name="Vehicle Type" id="Vehicle">
-            <option value="C">Car</option>
-            <option value="B">Bike</option>
-            <option value="T">Tractor</option>
+            <optgroup label="Bike">
+                <option value="15">Splender</option>
+                <option value="16">Platina</option>
+                <option value="17">Unicorn</option>
+                <option value="18">Shine</option>
+                <option value="19">Pulser</option>
+            </optgroup>
+            <optgroup label="Scooty">
+                <option value="20">Activa</option>
+                <option value="21">Pep</option>
+                <option value="22">Jupitor</option>
+                <option value="23">Access</option>
+                <option value="24">Ola</option>
+            </optgroup>
         </select>
+        </p>
     </fieldset>
         <button type="submit" style="align-items: center;">submit</button>
     </form>
