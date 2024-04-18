@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLR Registration Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">LLR Registration Form</h1>
+    <form>
+        <fieldset>
+        <p>Name :
+        <input type="text" placeholder="Enter your name" style="text-align: center"></p>
+        <p>Age : <input type="number" placeholder="Your Age" style="text-align: center;"></p>
+        <label for="DOB" >Date Of Birth :</label>
+        <input type="date" name="DOB" id="DOB">
+        <p>Email ID :<input type="email" placeholder="Enter your email" style="text-align: center;"></p>
+        <p>Gender :</p>
+        <input type="radio" name="Gender" id="M">
+        <label for="M" >Male</label>
+        <input type="radio" name="Gender" id="F">
+        <label for="F" >Female</label>
+        <input type="radio" name="Gender" id="O">
+        <label for="O" >Other</label>
+        <p>Type Of Vehicle : </p>
+        <input type="checkbox" name="Four Wheeler" id="4" >
+        <label for="4">Four-Wheeler</label>
+        <input type="checkbox" name="Two Wheeler" id="2" >
+        <label for="2">Two-Wheeler</label>
+        <p>Vehicle Category :</p>
+        <select name="Vehicle Type" id="Vehicle">
+            <option value="C">Car</option>
+            <option value="B">Bike</option>
+            <option value="T">Tractor</option>
+        </select>
+    </fieldset>
+        <button type="submit" style="align-items: center;">submit</button>
+    </form>
+</body>
+</html>
